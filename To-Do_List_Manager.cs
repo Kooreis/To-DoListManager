@@ -1,11 +1,5 @@
-using System;
-using System.Collections.Generic;
-
-class Program
+while (command != "exit")
 {
-    static void Main(string[] args)
-    {
-        List<string> toDoList = new List<string>();
-        string command = "";
-    }
+    Console.WriteLine("Enter command (add, remove, view, exit): ");
+    command = Console.ReadLine();
 }
