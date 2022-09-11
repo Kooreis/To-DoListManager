@@ -1,6 +1,7 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+public void addTask(String task) {
+        toDoList.add(task);
+    }
 
-public class ToDoListManager {
-    private ArrayList<String> toDoList = new ArrayList<>();
-}
+    public void removeTask(int taskIndex) {
+        toDoList.remove(taskIndex);
+    }
